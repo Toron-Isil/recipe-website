@@ -1,8 +1,18 @@
 * {
   text-align: center;
 }
-html {
+#html-tabulla {
   background-image: url(../img/tabulla.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#html-spaghetti {
+  background-image: url(../img/spaghetti.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#html-chicken {
+  background-image: url(../img/chicken-curry_500x250.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -25,6 +35,12 @@ ul {
 .header {
   background-color: rgba(48, 136, 48, 0.836);
   border-radius: 12px;
+}
+#spaghetti-header {
+  background-color: rgba(226, 158, 11, 0.644);
+}
+#chicken-header {
+  background-color: rgba(226, 158, 11, 0.644);
 }
 .header h1 {
   font-weight: bold;

@@ -1,6 +1,11 @@
 * {
   text-align: center;
 }
+#html-index {
+  background-image: url(../img/food-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 #html-tabulla {
   background-image: url(../img/tabulla.jpg);
   background-repeat: no-repeat;
@@ -32,6 +37,19 @@ ol {
 ul {
   list-style: none;
 }
+
+ul.index {
+  margin-top: 10px;
+  font-size: 42px;
+  margin-right: 30%;
+}
+.li-box {
+  display: inline-block;
+}
+.li-box li {
+  display: inline;
+}
+
 .header {
   background-color: rgba(48, 136, 48, 0.836);
   border-radius: 12px;
@@ -45,6 +63,10 @@ ul {
 .header h1 {
   font-weight: bold;
   font-size: 200px;
+}
+.header-index h1 {
+  font-weight: bold;
+  font-size: 86px;
 }
 .letter {
   color: white;
